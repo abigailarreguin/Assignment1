@@ -1,0 +1,68 @@
+
+QUESTION 5A:
+wg-dhcp114d129:docs AbigailEsler$ git commit -m "status.txt shows the output after the git status command is used"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+wg-dhcp114d129:docs AbigailEsler$ git push
+Everything up-to-date
+
+QUESTION 5B:
+9 commits
+git rev-list --all --count
+
+QUESTION 5C: wg-dhcp114d129:Assignment1 AbigailEsler$ ls -l .gitignore
+-rw-r--r--  1 AbigailEsler  staff  37 Oct 10 09:16 .gitignore
+It was modified last on Oct 10, 9:16
+ls -l .gitignore
+
+QUESTION 5D:
+wg-dhcp114d129:Assignment1 AbigailEsler$ git log
+commit b9b077585f7268b6d415d687756b78d258864cd1 (HEAD -> master, origin/master, origin/HEAD)
+Author: abigailarreguin <32646740+abigailarreguin@users.noreply.github.com>
+Date:   Tue Oct 10 09:17:37 2017 -0400
+
+    Creating new file for answers called answers.txt
+
+commit fbdbe9391ec1ce71f145df10738f17f8d336b597
+Author: Javier Ricardo Escobar Avila <escobara@linprog1.cs.fsu.edu>
+Date:   Mon Oct 2 11:24:16 2017 -0400
+
+    Add make file to compile the program on linprog
+
+commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+Merge: cb30d72 1cc7d66
+Author: irlabuser <irlabuser@irlabvm>
+Date:   Wed Sep 27 16:47:26 2017 -0500
+
+    Merge development
+
+commit 1cc7d6674cce7e5339598e87e07e329c45814408 (origin/development)
+Author: irlabuser <irlabuser@irlabvm>
+Date:   Wed Sep 27 16:47:05 2017 -0500
+:
+
+QUESTION 5E:
+1. Branches make sure your code changes are verified before delivering them to other developers.
+2. Branches support quality assurance/code quality/integration/testing/processes
+
+QUESTION 5F:
+git-log shows commit logs whereas git-status shows the working tree status.
+
+QUESTION 5G:
+git log Weapon.h
+
+QUESTION 5H:
+git log --grep=file
+
+QUESTION 5I:
+(I). The overall idea of inheritance is that certain classes are built on other classes (which are called parent classes).
+(II). Polymorphism is a programming language's capability to process object, focusing on their class or type.
+(III). Encapsulation helps to secure who or what is accessing data inside each class. It icludes the functions that are allowed to work on each object.
+
+ 
+
+
+
+
